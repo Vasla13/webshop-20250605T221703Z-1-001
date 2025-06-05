@@ -1,0 +1,49 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 15pt;
+  text-align: center;
+}
+
+/*.start_body {
+  background-color: blue;
+}>*/
+
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 15pt;
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+article {
+  justify-content: center;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  background-color: black;
+  color: #fff;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+div {
+  float: left;
+  width: 100px; /* largeur en pixel de ta photo */
+  height: 75px; /* hauteur en pixel de ta photo */
+  margin-right: 10px; /* marge en pixel à droite de la photo */
+}
